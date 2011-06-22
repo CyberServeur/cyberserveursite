@@ -1,0 +1,162 @@
+####
+#### Hobo Translation
+####
+en:
+  hobo:
+    # hobos default pages translations
+    page:
+      index:
+        title: "Index de {{model}}"
+        heading: "Index de {{model}}"
+
+      new:
+        title: "Nouveau {{model}}"
+        heading: "Nouveau {{model}}"
+
+      show:
+        title: "{{model}}"
+        heading: "{{model}}"
+        back_link: "Retour"
+        edit_link: "Éditer {{model}}"
+        new_link: "Nouveau {{model}}"
+        add_form_heading: "Ajouter {{model}}"
+
+      edit:
+        title: "Éditer {{model}}"
+        heading: "Éditer {{model}}"
+
+      index_for_owner:
+        title: "{{model}}s pour"
+        heading:
+          your: "Vos {{model}}s"
+          other: "{{model}}s"
+        subheading: "Pour:"
+
+      new_for_owner:
+        title: "Nouveau {{model}} for"
+        heading: "Nouveau {{model}}"
+        subheading: "Pour:"
+          
+      login:
+        title: "Identification"
+        heading: "Identification"
+        email: "Courriel"
+        password: "Mot de passe"
+        remember_me: "Se souvenir du mot de passe"
+        login: "Identification"
+        signup: "Enregistrement"
+        forgot_password: "Mot de passe oublié?"
+
+      signup:
+        title: "Enregistrement"
+        heading: "Enregistrement d'un nouvel usager"
+
+      forgot_password:
+        title: "Mot de passe oublié?"
+        heading: "Mot de passe oublié?"
+        text: "Entrer l'adresse courriel à utiliser quand vous vous identifierez sur le site.
+               Nous vous enverrons un courriel que vous pourrez utiliser pour générer un nouveau mot de passe."
+        email: "Courriel"
+        send: "Envoyer"
+
+      forgot_password_sent:
+        title: "Mot de passe oublié - Courriel envoyé"
+        heading: "Mot de passe oublié - Courriel envoyé"
+        text: "Un courriel incluant les instructions afin de générer votre mot de passe a été envoyé à {{email}}. Si vous n'avez pas reçu le courriel, vérifiez dans vos pourriels."
+
+      account_disabled:
+        title: "Compte d'utilisateur non trouvé"
+        heading: "Compte d'utilisateur non trouvé"
+        text: "Nous n'avons pas pu trouver un compte d'utilisateur correspondant au courriel mentionné. Veillez vérifier l'exactitude de l'addresse courrielle."
+
+    # hobos default action translation
+    action:
+      new: "Nouveau"
+      create: "Créer"
+      previous: "Précédent"
+      next: "Prochain"
+      add: "Ajouter"
+      more: "Davantage"
+      delete: "Effacer {{model}}"
+      save: "Sauvegarder"
+      cancel: "Canceler"
+      edit: "Éditer {{model}}"
+      back: "Retour vers"
+      send: "Envoyer"
+      remove: "Enlever"
+      signup: "S'enregistrer"
+      login: "S'identifier"
+      logout: "Désidentifier"
+      logged_in_as: "S'enregistrer en tant que {{name}}"
+      account: "Compte"
+
+    # hobos default message translation
+    messages:
+      create:
+        success: "The {{model}} was created successfully"
+        error: "Couldn't create the {{model}}.\n{{errors}}"
+      creator:
+        error: "Couldn't do creator {{name}}.\n{{errors}}"
+      transition:
+        error: "Couldn't do transition {{name}}.\n{{errors}}"
+      update:
+        no_attribute_error: "No update specified in params"
+        success: "Changes to the {{model}} were saved"
+        error: "There was a problem with that change.\n{{errors}}"
+      destroy:
+        success: "The {{model}} was deleted"
+      signup:
+        success: "Thanks for signing up!"
+        must_activate: "You must activate your account before you can log in. Please check your email."
+      login:
+        success: "You have logged in."
+        error: "You did not provide a valid userid ({{login}}) and password!"
+      logout: "You have logged out."
+      reset_password: "Your password has been reset."
+      permission_denied: "Permission Denied"
+      not_found: "The page you requested cannot be found."
+      unauthenticated: "Couldn't authenticate you"
+      current_password_is_not_correct: "is not correct"
+      you_are_site_admin: "You are now the site administrator"
+      you_signed_up: "You have signed up"
+      no: "No {{model}} available."
+      confirm: "Are you sure?"
+        
+    # hobos default collection translation
+    collection:
+      count:
+        zero: "No {{model}}s"
+        one: "There is only one {{model}} at the moment"
+        other: "There are already {{count}} {{model}}s"
+      heading:
+        your: "Your {{model}}s"
+        other: "{{model}}s"
+      add_form_heading: "Add {{a_or_an}} {{model}}"
+      empty_message: "No registered relations"
+            
+    # hobos form translation
+    form:
+      new:
+        heading: "New {{model}}"
+      error:
+        heading: "The following error occured:"
+
+    # hobo support
+    support:
+      or: "or"
+      a: "a"
+      an: "an"
+    
+    table_plus:
+      search: "Search"
+      empty: "No {{model}} to display"
+      
+    live_search:
+      label: "Search" 
+      results_label: "Search Results"
+      close_button: "close"
+      more: "More"
+      no_results: "Your search returned no matches."
+
+    dev_user_changer:
+      guest: "Guest"

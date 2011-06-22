@@ -1,0 +1,20 @@
+<?xml version="1.0"?><component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails cyberserveursite: test" product="" version="" jdbc-version="" driver-version="" uuid="965e1e87-2fc3-4fa1-a196-b9250ce23d15">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:/home/jmorneau/rails_apps/cyberserveursite/db/test.sqlite3</jdbc-url>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/sqlitejdbc-v056.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+  <data-source source="LOCAL" name="Rails cyberserveursite: development" product="" version="" jdbc-version="" driver-version="" uuid="ffc83130-5e7f-41fd-b42f-17c1382f3daa">
+    <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+    <jdbc-url>jdbc:sqlite:/home/jmorneau/rails_apps/cyberserveursite/db/development.sqlite3</jdbc-url>
+    <libraries>
+      <library>
+        <url>jar://$USER_HOME$/.RubyMine31/config/jdbc-drivers/sqlitejdbc-v056.jar!/</url>
+      </library>
+    </libraries>
+  </data-source>
+</component>
